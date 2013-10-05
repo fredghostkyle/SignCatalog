@@ -1,4 +1,4 @@
-SignCatalog-
+SignCatalog
 ============
 
 List of all ASL signs, reginal and non-reginal.
