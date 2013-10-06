@@ -5,31 +5,82 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="ASLCatolog">
-    <meta name="author" content="fredghostkyle for ASLCatolog">
+    <meta name="author" content="fredghostkyle for ASLCatalog">
     <link rel="shortcut icon" href="/img/favico.png">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries 
     If IE 9 run more JS files.-->
     <!--[if lt IE 9]>
-      <script src="../../assets/js/html5shiv.js"></script>
-      <script src="../../assets/js/respond.min.js"></script>
+      <script src="/assets/js/html5shiv.js"></script>
+      <script src="/assets/js/respond.min.js"></script>
     <![endif]-->
-    
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
 <!--/Meta
-    Header-->
-    <Title>ASL Catolog - Home</Title>
-<!--/header
     CSS-->
-    <Style></Style>
+    <style>body{padding-top: 70px;}</style>
 <!--/CSS
+    Header-->
+<title>ASL Catalog | Home</title>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/home#home">ASLCatalog</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/home#home">Home</a></li>
+            <li><a href="/news#home">About/News</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sign Catalog <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Main Catalog</a></li>
+                <li><a href="#">Regional Signs</a></li>
+                <li><a href="#">Children's Signs</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header"></li>
+                <li><a href="#">Full List of signs</a></li>
+                <li><a href="#">User-Contributed</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Find a Sign" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Find!</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+<!--/Header
     Body-->
-    <Body>
-        <p>Welcome.</p>
-    </Body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Welcome!</h1>
+            <br>
+            <p>Hello There! </p>
+        </div>
+        
+        
+        
+        
+        <hr>
+        <footer>
+            <p>&copy; ASLCatalog.com 2013</p>
+            <p><a href="/Copyright">Copyright</a> and <a href="/TOS">TOS</a> pages. You a ROBOT? Click <a href="/robot/Sitemap.xml">here</a>.</p>
+        </footer>
+    </div>
 <!--/body
     JS & Google-->
-    <script src="jquery.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
     <script>
-    // Your code goes here.
     </script>
+    <!--Add scripting here for faster load-time-->
 <!--/JS & Google-->
 </html>
