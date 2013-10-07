@@ -1,0 +1,18 @@
+<?php
+header('Location: http://ASL.FGKServers.com/home/#no_ref');
+exit;
+?>
+
+<html>
+<title>One moment...</title>
+<p>One moment....</p>
+    
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+<script type="text/javascript">
+   $(document).ready(function () {
+      setTimeout(function () {
+         $("body").append("<p>Seems like you are here for a while. Click <b><a href=\"/home/#no_ref\">Here</a></b> to go!").fadeIn();
+      }, 5500);
+   });
+    </script>
+</html>
