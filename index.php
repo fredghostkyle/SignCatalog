@@ -1,6 +1,5 @@
 <?php
-header('Location: http://ASL.FGKServers.com/home/#no_ref');
-exit;
+    header('Location: http://ASL.FGKServers.com/home/#none');
 ?>
 
 <html>
@@ -11,8 +10,8 @@ exit;
 <script type="text/javascript">
    $(document).ready(function () {
       setTimeout(function () {
-         $("body").append("<p>Seems like you are here for a while. Click <b><a href=\"/home/#no_ref\">Here</a></b> to go!").fadeIn();
-      }, 5500);
+         $("body").append("<p>Seems like you are here for a while. Click <b><a href=\"/home/#none_JS\">Here</a></b> to go!").fadeIn(15);
+      }, 6000);
    });
     </script>
 </html>
