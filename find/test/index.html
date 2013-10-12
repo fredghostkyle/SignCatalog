@@ -26,7 +26,7 @@
 <!--/CSS
     Header-->
     
-<title>ASL Catalog | Home</title>
+<title>ASL Catalog | Find</title>
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -74,7 +74,7 @@
             <br>
             <div>
                 <form method="get" action="/find/">
-                        <input type="text" placeholder="Type a sign you would like to learn here" class="form-control" alt="Type a sign you would like to learn here" name="sign" value="<?php echo $_GET["name"]; ?>"><button type="submit" class="btn btn-success" >Find!</button>
+                        <input type="text" placeholder="Type a sign you would like to learn here" class="form-control" alt="Type a sign you would like to learn here" name="sign" value="<?php echo $_GET['name']; ?>"><button type="submit" class="btn btn-success" >Find!</button>
                 </form>
             </div>
             <br>
@@ -86,7 +86,7 @@
             <li>Nav:</li>
             <li><a href="/home/#find">Home</a></li>
             <li><a href="/find/?sign=#find">Find</a></li>
-            <li>TEST</li>
+            <li>TEST > <?php echo $_GET["sign"]; ?></li>
         </ol>
         
     <hr>
