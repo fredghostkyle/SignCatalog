@@ -80,6 +80,7 @@
             <h1>Sign Finder</h1>
             <br>
             <div>
+<<<<<<< HEAD
                 <form  method="post" action="search.php?go"  id="searchform"> 
 	            <input  type="text" name="name"> 
 	            <input  type="submit" name="submit" value="Search"> 
@@ -92,6 +93,11 @@
                 }
                 ?>
 	         </form>
+=======
+                <form method="get" action="/find/">
+                        <input type="text" placeholder="Type a sign you would like to learn here" class="form-control" alt="Type a sign you would like to learn here" name="sign" value="<?php echo $_GET['name']; ?>"><button type="submit" class="btn btn-success" >Find!</button>
+                </form>
+>>>>>>> 7dcfb53f8dc07b6d69099819dd5f4f7b155310c0
             </div>
             <br>
             <p>Note: this is find/test its a freeking test ok? </p>
@@ -101,7 +107,12 @@
         <ol class="breadcrumb">
             <li>Nav:</li>
             <li><a href="/home/#find">Home</a></li>
+<<<<<<< HEAD
             <li><b>Find</b></li>
+=======
+            <li><a href="/find/?sign=#find">Find</a></li>
+            <li>TEST > <?php echo $_GET["sign"]; ?></li>
+>>>>>>> 7dcfb53f8dc07b6d69099819dd5f4f7b155310c0
         </ol>
         
     <hr>
